@@ -1,0 +1,31 @@
+    .btn {
+        height: 20px;
+    }
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .tets {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 5px;
+        font-size: 0px;
+        text-align: center;
+        padding-top: 30px;
+        box-sizing: border-box;
+        transition: all .5s;
+        cursor: pointer;
+    }
+
+    .tets:hover{
+        box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.75);
+        scale: 1.1;
+    }
+
+    .tets.on{
+        font-size: 30px;
+    }
+}
